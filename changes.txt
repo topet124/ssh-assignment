@@ -1,0 +1,2 @@
+In other to make it run faster, I removed the for loops used in adding the number of orders and changed it to inbuilt count function that django provided in the models.py,
+also I cached the page using memcached which made it load in less than 100ms when refreshed.
